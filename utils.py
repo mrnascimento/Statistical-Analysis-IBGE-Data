@@ -11,6 +11,7 @@ def set_plot_details(axs, xticks=None, yticks=None, xlabel=None, xlabel_fontsize
 	"""
 	Function to modularize a few plot details.
 	"""
+	
 	if xticks is not None:
 		axs.set_xticks(xticks)
 
